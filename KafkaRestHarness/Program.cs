@@ -20,7 +20,7 @@ namespace KafkaRestHarness
             var root = new Root
             {
                 //records = new List<Record> { new Record { value = new Value { test = "this is a message" } } }
-                records = new List<Record> { new Record { value = "this is a message"  } }
+                records = new List<Record> { new Record { value = "this is a new message"  } }
             };
 
             var json = new JavaScriptSerializer().Serialize(root);  //@"{""id"": 0, ""value"": ""testing this"""; // 
